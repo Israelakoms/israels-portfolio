@@ -7,6 +7,7 @@ body {
   background-color:#0470bf;
   margin: 0;
   padding: 0;
+  line-height: 30px;
 }
 
 /* Header/Blog Title */
@@ -105,6 +106,13 @@ ul.topnav li.topnav-right{
   width: 100%;
   padding: 10px;
   text-align: center;
+  height: fit-content;
+}
+
+.fakeimg img{
+  width: 1000px;
+  height: 450px;
+
 }
 
 /* Fake image, just for this example */
