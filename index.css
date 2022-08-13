@@ -4,7 +4,7 @@
 
 body {  
   font-family:sans-serif, cursive;
-  background-color:#40d3dc;
+  background-color:#0470bf;
   margin: 0;
   padding: 0;
 }
@@ -13,13 +13,16 @@ body {
 .header {
   padding: 20px;
   text-align:center;
-  background-color:#40d3dc;
+  background-color:#0470bf;
   color: white;
   font-family:sans-serif, cursive;
 
   
 } 
 /* logo */
+.logo{
+  padding-bottom: 8px;
+}
 .logo img{
   display: block;
   float: left;
@@ -35,6 +38,7 @@ body {
 }
 
 /* Style the top navigation bar */
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -99,14 +103,39 @@ ul.topnav li.topnav-right{
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
+  text-align: center;
 }
+
+/* Fake image, just for this example */
+ .realimg {
+  background-color: #aaa;
+  height: 155px;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.row .side .realimg img{
+  padding-top: 10px;
+  height: 110px;
+  /* width: 200px; */
+  padding-bottom: 0; 
+   width: 70%;
+}
+
+
+
+
 
 /* Footer */
 .footer {
-  padding: 20px;
+  line-height: normal;
+  padding:0;
+  margin: 0;
   text-align: center;
-  background: #1abc9c;
+  background: #0470bf;
   font-family: Bradley Hand, cursive;
 }
 
