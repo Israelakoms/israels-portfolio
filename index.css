@@ -125,6 +125,9 @@ ul.topnav li.topnav-right{
   position: relative;
 }
 
+.realimg a{
+  color: black;
+}
 .row .side .realimg img{
   padding-top: 10px;
   height: 110px;
