@@ -136,8 +136,20 @@ ul.topnav li.topnav-right{
    width: 70%;
 }
 
+.cv a{
+  color: black;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  padding-left:30px ;
+  padding-right: 30px;
+}
 
-
+.cv a:hover {
+  color: #0470bf;
+}
 
 
 /* Footer */
